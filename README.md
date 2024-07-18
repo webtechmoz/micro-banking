@@ -59,22 +59,6 @@ Após iniciar a aplicação, você pode acessar diferentes rotas para utilizar a
 
 A aplicação irá ajustar-se automaticamente ao tamanho da janela do navegador.
 
-## Estrutura do Projeto
-
-A estrutura do projeto está organizada da seguinte forma:
-
-MicroBank/
-│
-├── .vscode/ # Configurações do VSCode
-| |---settings.json
-├── utils/ # Utilitários e funções auxiliares
-│ └── controls.py
-├── views/ # Módulos de visualização
-│ ├── home.py # Vista da página inicial
-│ ├── error404.py # Vista da página de erro 404
-│ └── simulator.py # Vista da página do simulador
-└── main.py #ficheiro principal da aplicação
-
 ## Contribuição
 
 Se deseja contribuir com o projeto, siga os passos abaixo:
