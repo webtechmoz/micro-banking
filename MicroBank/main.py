@@ -34,4 +34,4 @@ def main(page: ft.Page):
     page.go(page.route)
 
 if __name__ == '__main__':
-    ft.app(target=main, view=ft.WEB_BROWSER)
+    app = ft.app(target=main, view=ft.WEB_BROWSER)
